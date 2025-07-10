@@ -60,9 +60,6 @@
       White with Burgundy and Grey Stripes
       Tail and Wing Tip Strobes
     </div>
-    <div class="price">
-      <span>$200,000</span><br>
-    </div>
   </div>
   <div class="contact mt-3">
     <h3>Contact</h3>
@@ -75,11 +72,15 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG6DTQLPV9"></script>
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RG6DTQLPV9');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
